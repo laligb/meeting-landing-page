@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --green-color: #4d96a9;
+  --magenta-color: #855fb1;
+  --gray-color: #28283d;
+  --light-gray-color: #87879d;
+  --light-blue-color: #8fe3f9;
+  --light-magenta-color: #d9b8ff;
+  --white-color: #fafafa;
+
+  --default-button {
+    width: 193px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 29px;
+  }
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: url();
+}
+
+body {
+  background-color: rgb(17, 143, 101);
+}
